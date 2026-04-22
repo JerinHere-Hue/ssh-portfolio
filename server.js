@@ -43,7 +43,7 @@ const server = new Server({
   });
 });
 
-const PORT = process.env.PORT || 2222;
+const PORT = process.env.PORT || 443;
 
 server.listen(PORT, "0.0.0.0", () => {
   console.log("Running on port", PORT);
