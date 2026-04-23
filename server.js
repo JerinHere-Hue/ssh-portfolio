@@ -42,12 +42,12 @@ const server = new Server({
             stream.write("  \x1b[1mexit\x1b[0m     - Exit terminal\r\n");
           },
           about: () => {
-            stream.write("\x1b[36m✨\x1b[0m I'm a creative dev with soft aesthetic vibes\r\n");
+            stream.write("\x1b[36m✨\x1b[0m I'm a creative dev With Experence IN Python HTML CSS JS CPP and Asmmbly\r\n");
           },
           projects: () => {
             stream.write("\x1b[33m💄 Projects:\x1b[0m\r\n");
-            stream.write("  • \x1b[1mGloss UI\x1b[0m - Beautiful UI components\r\n");
-            stream.write("  • \x1b[1mBoba App\x1b[0m - Cozy tea app\r\n");
+            stream.write("  • \x1b[1m3DGame\x1b[0m - A MineCraft Like 3D game\r\n");
+            stream.write("  • \x1b[1mHTML\x1b[0m - A Realy Cool Website\r\n");
           },
           wish: () => {
             stream.write("\x1b[35m💌 I wish to build beautiful things\x1b[0m\r\n");
